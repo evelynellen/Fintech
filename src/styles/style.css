@@ -1,0 +1,33 @@
+@import url("./global.css");
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 46px;
+    border-bottom: 2px solid var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.navigation-header ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.navigation-header ul li a {
+    color: var(--color-neutral-white);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    text-decoration: none;
+}
+
+.btn-header {
+    font-family: var(--font-primary); 
+    text-decoration: none; 
+    background-color: var(--color-primary); 
+    color: var(--color-neutral-white);
+    border-radius: 10px;
+    padding: 10px 20px; 
+    font-weight: var(--font-weight-button);
+}
