@@ -52,7 +52,6 @@ main {
     gap: 25px;
 }
 
-
 .main-content h1 {
     font-family: var(--font-primary);
     font-size: var(--font-size-h1);
@@ -82,4 +81,36 @@ main {
     border: 1px solid var(--color-primary);
     border-radius: 8px;
     padding: 10px 25px;
+}
+
+/*----- SECTION-SERVICES -----*/
+
+.section-services {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.container-item-services {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-primary);
+    gap: 30px;
+}
+
+.container-item-services h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-secondary);
+    width: 443px;
+}
+
+.container-item-services h2 span {
+    color: var(--color-primary);
+}
+
+.container-item-services p {
+    width: 603px;
+    letter-spacing: 0.5px;
 }
