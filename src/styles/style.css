@@ -42,4 +42,44 @@ main {
     align-items: center;
     background-color: var(--color-secondary);
     gap: 50px;
+    padding: 100px 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 499px;
+    gap: 25px;
+}
+
+
+.main-content h1 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    color: var(--color-neutral-white);
+    letter-spacing: 0.5px;
+}
+
+.main-content h1 span {
+    color: var(--color-primary);
+}
+
+.main-content p {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-neutral-white);
+    letter-spacing: 0.5px;
+}
+
+.container-cta {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 10px 25px;
 }
