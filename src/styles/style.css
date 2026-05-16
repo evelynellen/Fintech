@@ -149,3 +149,75 @@ main {
     color: var(--color-neutral-white);
     letter-spacing: 0.5px;
 }
+
+/*----- FOOTER -----*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0 62px 0;
+    gap: 126px;
+    background-color: var(--color-secondary);
+    border-top: 1px solid var(--color-neutral-white);
+}
+
+.footer-information {
+    font-family: var(--font-primary);
+    color: var(--color-neutral-white);
+}
+
+.footer-information h2 {
+    font-size: var(--font-size-body);
+    padding-bottom: 24px;
+}
+
+.footer-information ul {
+    list-style: none;
+}
+
+.footer-information ul li a, .footer-information ul li {
+    text-decoration: none;
+    font-family: var(--font-primary);
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    letter-spacing: 0.5px;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 0.5px solid #4D4D4D;
+}
+
+.footer-subscribe h2 {
+    font-family: var(--font-primary);
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    width: 198px;
+    letter-spacing: 0.5px;
+}
+
+.footer-subscribe form{
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.footer-subscribe input {
+    color: var(--color-neutral-white);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    background: transparent;
+}
+
+.footer-subscribe button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 50px;
+    padding: 11px;
+}
+
+.content-footer {
+    padding-bottom: 16px;
+}
